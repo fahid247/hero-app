@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+    "title": "TravelGo – Smart Trip Planner",
+    "companyName": "WanderSoft Innovations",
+    "id": 10,
+    "description": "TravelGo makes trip planning effortless by letting you book flights, accommodations, and activities in one place. Receive AI-generated itineraries, local recommendations, and travel tips to ensure you experience every destination to its fullest.",
+    "size": 78,
+    "reviews": "2.15K",
+    "ratingAvg": 4.5,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 1030 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/825/825515.png",
+    "title": "CryptoTrack – Live Market Insights",
+    "companyName": "BlockView Technologies",
+    "id": 13,
+    "description": "CryptoTrack keeps you updated on real-time cryptocurrency prices, trends, and alerts. Analyze market movements, track your portfolio, and make smarter trading decisions with detailed charts, notifications, and market insights.",
+    "size": 68,
+    "reviews": "3.1K",
+    "ratingAvg": 4.1,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 590 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/428/428001.png",
+    "title": "TimeTrack – Productivity & Hours Tracker",
+    "companyName": "Prodify Solutions",
+    "id": 19,
+    "description": "TimeTrack helps you monitor work hours, breaks, and project progress efficiently. Generate detailed reports, track team performance, and optimize productivity to ensure deadlines are met without stress.",
+    "size": 43,
+    "reviews": "1.39K",
+    "ratingAvg": 4.4,
+    "downloads": "970K",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3446/3446125.png",
+    "title": "DailyMood – Mood & Mental Wellness Tracker",
+    "companyName": "MindScope Labs",
+    "id": 26,
+    "description": "DailyMood allows you to track your emotions and mental well-being with daily reflections, mood charts, and insights. Develop healthy habits, identify patterns, and gain a deeper understanding of your emotional health over time.",
+    "size": 45,
+    "reviews": "980",
+    "ratingAvg": 4.5,
+    "downloads": "900K",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1042/1042339.png",
+    "title": "FitBuddy – Personal Fitness Coach",
+    "companyName": "HealthSync Labs",
+    "id": 2,
+    "description": "FitBuddy is your personal fitness companion, offering comprehensive tracking of workouts, calories, steps, and heart rate. Get personalized plans, progress insights, and motivational tips to help you achieve your health and fitness goals efficiently.",
+    "size": 60,
+    "reviews": "2K",
+    "ratingAvg": 4.8,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 1250 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1051/1051372.png",
+    "title": "CarMate – Vehicle Health Tracker",
+    "companyName": "AutoTrack Solutions",
+    "id": 30,
+    "description": "CarMate monitors your car’s health, fuel levels, and maintenance schedules. Receive timely reminders, track repairs, and keep your vehicle running smoothly and efficiently with easy-to-use tools.",
+    "size": 66,
+    "reviews": "1.25K",
+    "ratingAvg": 4.4,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055647.png",
+    "title": "TaskMaster – Project & Task Organizer",
+    "companyName": "WorkFlow Inc.",
+    "id": 31,
+    "description": "TaskMaster allows you to organize tasks, prioritize projects, and track progress efficiently. Collaborate with your team, set deadlines, and stay on top of your workload to maximize productivity and results.",
+    "size": 47,
+    "reviews": "1.45K",
+    "ratingAvg": 4.5,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2942/2942909.png",
+    "title": "CookMate – Global Recipe Hub",
+    "companyName": "RecipeSoft Studios",
+    "id": 8,
+    "description": "CookMate connects you to a global community of food enthusiasts. Discover, save, and share recipes, explore step-by-step guides, and customize meal plans to make cooking fun, easy, and inspiring for every occasion.",
+    "size": 52,
+    "reviews": "1.78K",
+    "ratingAvg": 4.6,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 820 }
+    ]
+  }
+]

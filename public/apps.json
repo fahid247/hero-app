@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/869/869636.png",
+    "title": "WeatherPro – Real-Time Forecasts",
+    "companyName": "SkyNetic Technologies",
+    "id": 17,
+    "description": "WeatherPro provides hyper-accurate weather forecasts and real-time alerts tailored to your location. Stay informed with radar maps, storm warnings, hourly updates, and detailed weather insights to plan your day with confidence.",
+    "size": 48,
+    "reviews": "1.58K",
+    "ratingAvg": 4.5,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1042/1042339.png",
+    "title": "FitBuddy – Personal Fitness Coach",
+    "companyName": "HealthSync Labs",
+    "id": 2,
+    "description": "FitBuddy is your personal fitness companion, offering comprehensive tracking of workouts, calories, steps, and heart rate. Get personalized plans, progress insights, and motivational tips to help you achieve your health and fitness goals efficiently.",
+    "size": 60,
+    "reviews": "2K",
+    "ratingAvg": 4.8,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 1250 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+    "title": "TravelGo – Smart Trip Planner",
+    "companyName": "WanderSoft Innovations",
+    "id": 10,
+    "description": "TravelGo makes trip planning effortless by letting you book flights, accommodations, and activities in one place. Receive AI-generated itineraries, local recommendations, and travel tips to ensure you experience every destination to its fullest.",
+    "size": 78,
+    "reviews": "2.15K",
+    "ratingAvg": 4.5,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 1030 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2942/2942909.png",
+    "title": "CookMate – Global Recipe Hub",
+    "companyName": "RecipeSoft Studios",
+    "id": 8,
+    "description": "CookMate connects you to a global community of food enthusiasts. Discover, save, and share recipes, explore step-by-step guides, and customize meal plans to make cooking fun, easy, and inspiring for every occasion.",
+    "size": 52,
+    "reviews": "1.78K",
+    "ratingAvg": 4.6,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 820 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "title": "BudgetEase – Smart Finance Manager",
+    "companyName": "FinTrack Inc.",
+    "id": 4,
+    "description": "BudgetEase simplifies personal finance by automatically categorizing your expenses, tracking spending trends, and helping you set realistic financial goals. Visualize your budget, save smarter, and make informed financial decisions with ease.",
+    "size": 55,
+    "reviews": "2.1K",
+    "ratingAvg": 4.7,
+    "downloads": "2.2M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 1250 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/825/825515.png",
+    "title": "CryptoTrack – Live Market Insights",
+    "companyName": "BlockView Technologies",
+    "id": 13,
+    "description": "CryptoTrack keeps you updated on real-time cryptocurrency prices, trends, and alerts. Analyze market movements, track your portfolio, and make smarter trading decisions with detailed charts, notifications, and market insights.",
+    "size": 68,
+    "reviews": "3.1K",
+    "ratingAvg": 4.1,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 590 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/4228/4228677.png",
+    "title": "MindEase – Meditation & Relaxation",
+    "companyName": "CalmCore Labs",
+    "id": 7,
+    "description": "MindEase is a meditation and relaxation app designed to help reduce stress, improve focus, and promote mental well-being. Access guided meditations, breathing exercises, sleep aids, and mindfulness programs anytime, anywhere.",
+    "size": 42,
+    "reviews": "1.45K",
+    "ratingAvg": 4.9,
+    "downloads": "1.3M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 1010 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/428/428001.png",
+    "title": "TimeTrack – Productivity & Hours Tracker",
+    "companyName": "Prodify Solutions",
+    "id": 19,
+    "description": "TimeTrack helps you monitor work hours, breaks, and project progress efficiently. Generate detailed reports, track team performance, and optimize productivity to ensure deadlines are met without stress.",
+    "size": 43,
+    "reviews": "1.39K",
+    "ratingAvg": 4.4,
+    "downloads": "970K",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",
+    "title": "NoteNest – Smart Note Organizer",
+    "companyName": "WriteWise Inc.",
+    "id": 21,
+    "description": "NoteNest is an intuitive workspace that allows you to organize notes, tasks, and reminders in one place. Customize your dashboards, set deadlines, and collaborate seamlessly to stay productive and organized every day.",
+    "size": 36,
+    "reviews": "950",
+    "ratingAvg": 4.3,
+    "downloads": "850K",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/702/702797.png",
+    "title": "PhotoMagic – AI Photo Editor",
+    "companyName": "PixelArt Studios",
+    "id": 22,
+    "description": "PhotoMagic offers a powerful photo editing experience with AI-driven filters, effects, and templates. Transform your images, enhance colors, and create stunning visuals effortlessly, whether for social media or personal projects.",
+    "size": 72,
+    "reviews": "1.65K",
+    "ratingAvg": 4.6,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/331/331043.png",
+    "title": "Learnify – Interactive Learning Platform",
+    "companyName": "EduCore Labs",
+    "id": 23,
+    "description": "Learnify provides interactive courses and quizzes across a wide range of topics. Enhance your skills, track progress, and earn certificates, all while learning at your own pace with engaging multimedia content.",
+    "size": 65,
+    "reviews": "2.2K",
+    "ratingAvg": 4.7,
+    "downloads": "2.3M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 1140 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "title": "ShopSmart – Smart Shopping Assistant",
+    "companyName": "Retailify Solutions",
+    "id": 24,
+    "description": "ShopSmart helps you compare prices, find the best deals, and manage your shopping lists efficiently. Receive alerts on discounts, organize purchases, and save both time and money while shopping online or in-store.",
+    "size": 58,
+    "reviews": "1.75K",
+    "ratingAvg": 4.4,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 790 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/725/725643.png",
+    "title": "SleepWell – Sleep Tracker & Analyzer",
+    "companyName": "DreamTech Solutions",
+    "id": 25,
+    "description": "SleepWell monitors your sleep patterns and provides actionable insights to improve rest quality. Track sleep cycles, receive personalized tips, and develop habits that enhance both sleep and overall wellness.",
+    "size": 40,
+    "reviews": "1.2K",
+    "ratingAvg": 4.8,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3446/3446125.png",
+    "title": "DailyMood – Mood & Mental Wellness Tracker",
+    "companyName": "MindScope Labs",
+    "id": 26,
+    "description": "DailyMood allows you to track your emotions and mental well-being with daily reflections, mood charts, and insights. Develop healthy habits, identify patterns, and gain a deeper understanding of your emotional health over time.",
+    "size": 45,
+    "reviews": "980",
+    "ratingAvg": 4.5,
+    "downloads": "900K",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2910/2910763.png",
+    "title": "NewsFlash – Personalized News & Alerts",
+    "companyName": "InfoStream Media",
+    "id": 27,
+    "description": "NewsFlash delivers breaking news, trending stories, and personalized alerts. Stay informed on topics you care about, explore articles from reliable sources, and receive notifications to never miss an important update.",
+    "size": 50,
+    "reviews": "1.4K",
+    "ratingAvg": 4.3,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 560 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055646.png",
+    "title": "EventHive – Discover Local Events",
+    "companyName": "PlanIt Solutions",
+    "id": 28,
+    "description": "EventHive helps you discover local events, concerts, and activities tailored to your interests. Get recommendations, purchase tickets, and stay connected with your community’s happenings with ease.",
+    "size": 62,
+    "reviews": "1.65K",
+    "ratingAvg": 4.6,
+    "downloads": "1.35M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 730 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3286/3286007.png",
+    "title": "PetPal – Pet Health & Care Manager",
+    "companyName": "Animalia Tech",
+    "id": 29,
+    "description": "PetPal helps manage your pets’ health, vaccination schedules, and appointments. Track medical history, set reminders, and ensure your furry friends stay healthy and happy with organized care tools.",
+    "size": 54,
+    "reviews": "1.1K",
+    "ratingAvg": 4.7,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1051/1051372.png",
+    "title": "CarMate – Vehicle Health Tracker",
+    "companyName": "AutoTrack Solutions",
+    "id": 30,
+    "description": "CarMate monitors your car’s health, fuel levels, and maintenance schedules. Receive timely reminders, track repairs, and keep your vehicle running smoothly and efficiently with easy-to-use tools.",
+    "size": 66,
+    "reviews": "1.25K",
+    "ratingAvg": 4.4,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055647.png",
+    "title": "TaskMaster – Project & Task Organizer",
+    "companyName": "WorkFlow Inc.",
+    "id": 31,
+    "description": "TaskMaster allows you to organize tasks, prioritize projects, and track progress efficiently. Collaborate with your team, set deadlines, and stay on top of your workload to maximize productivity and results.",
+    "size": 47,
+    "reviews": "1.45K",
+    "ratingAvg": 4.5,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+   {
+    "image": "https://cdn-icons-png.flaticon.com/512/2922/2922564.png",
+    "title": "EcoTrack – Sustainability Tracker",
+    "companyName": "GreenLife Tech",
+    "id": 33,
+    "description": "EcoTrack helps you track your carbon footprint, energy consumption, and sustainable practices. Get tips to reduce waste, save energy, and contribute positively to the environment.",
+    "size": 58,
+    "reviews": "1.2K",
+    "ratingAvg": 4.6,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 590 }
+    ]
+  }
+]

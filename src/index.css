@@ -1,0 +1,13 @@
+.inter{
+  font-family: "Inter", sans-serif;
+}
+
+a.active{
+color: blueviolet;
+text-decoration: underline;
+}
+
+li a:hover {
+ background-color: rgb(187, 172, 202);
+ 
+}
