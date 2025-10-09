@@ -26,7 +26,9 @@ const router = createBrowserRouter([
             },
             {
                 path:"/installation",
-                Component: Installation
+                loader:()=>fetch('/apps.json'),
+                Component: Installation,
+                hydrateFallbackElement:<div className='flex justify-center'><span className="loading loading-spinner loading-xl"></span></div>
             },
             {
                 path:"/appDetails/:id",
