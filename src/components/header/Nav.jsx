@@ -48,9 +48,9 @@ const Nav = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className=" flex lg:text-sm text-[10px] items-center p-2 gap-1 rounded-sm bg-gradient-to-r from-[rgba(99,46,227,1)] to-[rgba(159,98,242,1)] text-white  border-none">
+          <Link to={`https://github.com/fahid247`} className=" flex lg:text-sm text-[10px] items-center p-2 gap-1 rounded-sm bg-gradient-to-r from-[rgba(99,46,227,1)] to-[rgba(159,98,242,1)] text-white  border-none">
                 <IoLogoGithub />Contribute
-          </button>
+          </Link>
         </div>
       </div>
     </>
