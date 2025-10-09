@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import Card from "../../components/cards/card/Card";
 import AppNotFound from "../../components/appNotFound/AppNotFound";
 
@@ -7,7 +7,7 @@ const Apps = () => {
   const data = useLoaderData();
   const [searchItem,setSearchItem] = useState("");
   const filterData = data.filter(card => card.title.toLowerCase().includes(searchItem.toLowerCase()))
-  const length = data.length;
+  const length = filterData.length;
 
   return (
     <div className="max-w-[1440px] mx-auto p-5">
@@ -41,7 +41,7 @@ const Apps = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-5 sm:p-5">
         {filterData.length > 0 ? (
-          filterData.map((card) => <Card key={card.id} card={card} />)
+          filterData.map((card) =><Link to={`/appDetails/${card.id}`}><Card key={card.id} card={card} /></Link>)
         ) : (
           <AppNotFound></AppNotFound>
         )}
