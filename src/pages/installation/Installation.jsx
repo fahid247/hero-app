@@ -64,7 +64,7 @@ const Installation = () => {
               <a>By Downloads(d)</a>
             </li>
             <li onClick={()=>handleSort("Sorted by Downloads(a)")}>
-              <a>By Downloads(a)</a>
+              <a>By Downloads(a)</a> 
             </li>
             <li onClick={()=>handleSort("Sorted by Size")}>
               <a>By Size</a>
