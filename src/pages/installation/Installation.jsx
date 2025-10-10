@@ -1,13 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
-import { getStoreApp } from "../../Utilities/addToDb";
+import { getStoreApp, removeItem } from "../../Utilities/addToDb";
 import InstalledApp from "../../components/InstalledApp/InstalledApp";
 
 const Installation = () => {
     const data = useLoaderData()
-    const id = getStoreApp()
-    const installedApp = data.filter(card => id.includes(card.id))
-    const length = installedApp.length
+    const [apps,setApps]=useState([])
+    const [sort , setSort] =useState("")
+
+    const handleSort=(type)=>{
+        setSort(type)
+        if(type==="Sorted by Size"){
+            const sortedApps = [...apps].sort((a,b)=>a.size-b.size)
+            setApps(sortedApps)
+        }
+        if(type==="Sorted by Rating"){
+            const sortedApps = [...apps].sort((a,b)=>b.ratingAvg-a.ratingAvg)
+            setApps(sortedApps)
+        }
+        
+    }
+
+    useEffect(()=>{
+
+        const id = getStoreApp()
+        const installedApp = data.filter(card => id.includes(card.id))
+        setApps(installedApp)
+    },[data])
+    const length = apps.length
+    const handleRemove=(id)=>{
+        removeItem(id);
+        setApps(prevApps => prevApps.filter(app => app.id !== id));
+    }
   return (
     <div className="max-w-[1440px] mx-auto">
       <h1 className="text-center font-bold text-[rgba(0,25,49,1)] text-[min(4vw,48px)] mt-5 sm:mt-20 mb-4">
@@ -22,23 +46,23 @@ const Installation = () => {
         </h1>
         <div className="dropdown dropdown-start">
           <div tabIndex={0} role="button" className="btn m-1">
-            Sort ⬇️
+             {sort?sort:"Sort ⤵︎"}
           </div>
           <ul
             tabIndex={0}
             className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
           >
-            <li>
-              <a>by Item</a>
+            <li onClick={()=>handleSort("Sorted by Size")}>
+              <a>By Size</a>
             </li>
-            <li>
-              <a>by rating</a>
+            <li onClick={()=>handleSort("Sorted by Rating")}>
+              <a>By Rating</a>
             </li>
           </ul>
         </div>
       </div>
       <div>
-            {installedApp.map(card=> <InstalledApp key={card.id} card={card}></InstalledApp>)}
+            {apps.map(card=> <InstalledApp key={card.id} handleRemove={handleRemove} card={card}></InstalledApp>)}
       </div>
     </div>
   );
