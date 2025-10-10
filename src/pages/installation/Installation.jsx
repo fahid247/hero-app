@@ -52,7 +52,7 @@ const Installation = () => {
         <h1 className="font-semibold text-[min(2.2vw,24px)]">
           ({length}) Apps Found
         </h1>
-        <div className="dropdown dropdown-start">
+        <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn m-1">
              {sort?sort:"Sort ⤵︎"}
           </div>
