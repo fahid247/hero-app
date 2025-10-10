@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaDownload } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { AiOutlineLike } from "react-icons/ai";
-import { addToDb } from '../../Utilities/addToDb';
+import { addToDb, getStoreApp } from '../../Utilities/addToDb';
 
 
 
 
 const DetailedCard = ({singleAppData}) => {
+    const [isDisabled,setIsDisabled] =useState(false)
+     useEffect(() => {
+    const storedIds = getStoreApp() || [];
+    if (storedIds.includes(singleAppData.id)) {
+      setIsDisabled(true);
+    }
+  }, [singleAppData.id]);
     const handleDownloadClick = (id) =>{
         addToDb(id)
+        setIsDisabled(true)
     }
     return (
         <div className='flex gap-5 sm:gap-10 border-b border-[rgba(0,25,49,1)] max-w-[1440px] mx-auto  sm:p-20 p-10'>
@@ -38,7 +46,7 @@ const DetailedCard = ({singleAppData}) => {
                         <h1 className='text-[rgba(0,25,49,1)] font-extrabold text-[min(4vw,40px)]'>{singleAppData.reviews}</h1>
                     </div>
                 </div>
-                <button onClick={()=>handleDownloadClick(singleAppData.id)} className='btn border-none text-[min(2vw,20px)] bg-[rgba(0,211,144,1)]'>Install Now({singleAppData.size}MB)</button>
+                <button onClick={()=>handleDownloadClick(singleAppData.id)} className= {isDisabled?`btn border-none text-[min(2vw,20px)] bg-[rgba(0,211,144,1)] opacity-50 cursor-not-allowed`:`btn border-none text-[min(2vw,20px)] bg-[rgba(0,211,144,1)]`}>{isDisabled?"Installed":`Install Now(${singleAppData.size}MB)`} </button>
             </div>
         </div>
     );

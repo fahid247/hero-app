@@ -18,6 +18,14 @@ const Installation = () => {
             const sortedApps = [...apps].sort((a,b)=>b.ratingAvg-a.ratingAvg)
             setApps(sortedApps)
         }
+        if(type==="Sorted by Downloads(a)"){
+            const sortedApps = [...apps].sort((a,b)=>a.downloads-b.downloads)
+            setApps(sortedApps)
+        }
+        if(type==="Sorted by Downloads(d)"){
+            const sortedApps = [...apps].sort((a,b)=>b.downloads-a.downloads)
+            setApps(sortedApps)
+        }
         
     }
 
@@ -50,8 +58,14 @@ const Installation = () => {
           </div>
           <ul
             tabIndex={0}
-            className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
+            className="dropdown-content menu bg-white rounded-box z-1 w-52 p-2 shadow-sm"
           >
+            <li onClick={()=>handleSort("Sorted by Downloads(d)")}>
+              <a>By Downloads(d)</a>
+            </li>
+            <li onClick={()=>handleSort("Sorted by Downloads(a)")}>
+              <a>By Downloads(a)</a>
+            </li>
             <li onClick={()=>handleSort("Sorted by Size")}>
               <a>By Size</a>
             </li>
