@@ -20,7 +20,7 @@ const InstalledApp = ({card , handleRemove}) => {
                 </div>
             </div>
             <div className='flex items-center'>
-                <button onClick={()=>handleRemove(card.id)}  className=" flex text-[min(2vw,20px)] items-center p-1 sm:px-4 sm:p-2  gap-1 rounded-sm bg-[rgba(0,211,144,1)] text-white  border-none">
+                <button onClick={()=>handleRemove(card.id)}  className=" flex cursor-pointer text-[min(2vw,20px)] items-center p-1 sm:px-4 sm:p-2  gap-1 rounded-sm bg-[rgba(0,211,144,1)] text-white  border-none">
          UnInstall
       </button>
             </div>
